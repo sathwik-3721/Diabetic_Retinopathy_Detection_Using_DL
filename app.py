@@ -3,17 +3,12 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
 import streamlit as st
-from dotenv import load_dotenv
 import google.generativeai as genai
-import os
 from PIL import Image
 import time
 from docx import Document
 from docx.shared import Inches
 from docx.enum.text import WD_COLOR_INDEX
-
-# Load the Environment Variables
-load_dotenv()
 
 # Confiure the Generative AI API using genai
 genai.configure(api_key = "AIzaSyAIewGMqAtMEtZMZjDJgEPNEwh_Q74yfGw")
