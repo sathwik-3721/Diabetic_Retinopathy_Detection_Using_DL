@@ -1,0 +1,12 @@
+numpy
+pandas
+opencv-python
+random
+seaborn
+matplotlib
+sklearn
+keras==2.15.0
+tensorflow==2.15.0
+google-generativeai
+python-dotenv
+python-docx
